@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="https://kit.fontawesome.com/f6ec98831b.js" crossorigin="anonymous"></script>
+    
+    <title>Login | Yoga Mudra</title>
+</head>
+<body>
+
+
+
+    <div class="content">
+        <img class="wallpaper-panel" src="images/background.jpg" alt="">
+    
+        <div class="login-panel">
+            <h1>Welcome Back!</h1>
+            <form name="form" class="form" action="php/login.php" method="post">
+                <p>Email</p>
+                <input class="input-field" type="text" placeholder="Email" name="mail" 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        oninvalid="this.setCustomValidity('Sorry , we dont recognize this email.')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        oninput="setCustomValidity(' ')"> <br>
+                <p>Password</p>
+                <input class="input-field" type="password" placeholder="Password" name="pass"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        oninput="setCustomValidity(' ')"> <br> <br> <br>
+                <input class="submit-btn" type="submit" value="LOGIN"> <br> <br>                
+            </form>
+            <br>
+            <p class="no-account" >Don't have an account? <a class="signup" href="signup.html">Sign up</a></p> 
+
+        </div>
+    </div>
+    
+    <a href="index.html">
+        <img class="amrita-logo" src="images/logo2.png" alt="amrita-logo">
+    </a>
+
+</body>
+</html>s

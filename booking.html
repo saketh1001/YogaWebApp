@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Yoga Mutra</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap'); </style>
+    <link rel="stylesheet" href="css/booking.css">
+
+
+
+    <div class="container">
+        <center>
+            <h1>Book Now</h1>
+        </center>
+
+        <form class="form" action="php/booking.php" method="post">
+            <label for="name">Name</label> <br>
+            <input class="input" type="text" name="name" placeholder="Name"> <br> <br>
+            <label for="email">Email</label> <br>
+            <input class="input" type="text" name="mail" placeholder="Email"> <br> <br>
+            <label for="phone">Phone No</label> <br>
+            <input class="input" type="text" name="phone" placeholder="Phone No"> <br> <br>
+            <label for="event">Available Event</label> <br>
+            <select id="places" class="input" name="event" class="event-drop" onchange="initMap()">
+                <option value="Yoga Competetion 10th Jan 2023" >Yoga Competetion 10th Jan 2023</option>
+                <option value="Aerobics Comepetion 15th Jan 2023" >Aerobics Comepetion 15th Jan 2023</option>
+                <option value="Karate Competetion 25th Jan 2023" >Karate Competetion 25th Jan 2023</option>
+                <option value="Pranayama Live Class 29th Dec 2022" >Pranayama Live Class 29th Dec 2022</option>
+                <option value="Yoga Live Class 28th Dec 2022" >Yoga Live Class 28th Dec 2022</option>
+            </select> <br>
+            <input class="submit-btn" type="submit" value="Book">
+        </form>
+
+        <div class="map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8610.961681881925!2d76.6275469893269!3d12.27913679343816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf65e2e8b645d5%3A0x3e1cd1ab9a8bbda!2sMysuru%20Yogalaya!5e0!3m2!1sen!2sin!4v1671669666391!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="pay">
+            <img class="upi" src="images/upi.png" alt="">
+            <img class="qr"  src="images/qrcode2.png" alt="">
+        </div>
+
+    </div>
+    <a href="index.html">
+        <img class="amrita-logo" src="images/logo2.png" alt="amrita-logo">
+    </a>
+
+</body>
+</html>

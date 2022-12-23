@@ -1,0 +1,246 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.amrita-logo
+{
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.para
+{
+    margin-top: 4em;
+    margin-left: 8em ;
+}
+.search
+{
+    margin-top: 6.5em;
+    margin-right: 0em;
+    float: right;
+    border: 2px solid;
+    width: 14em;
+}
+.se
+{
+   float:right;
+   margin-top: 6.5em;
+   margin-right: 14em;
+}
+.icon
+{
+    float:right ;
+}
+.head
+{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+.btn1
+{
+    border: 2px ;
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;   
+}
+.btn1:hover
+{
+    border: 1px solid red;
+    background-color: white;
+}
+
+.drp
+{
+    border: 2px ;
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px; 
+}
+.drp:hover
+{
+    border: 2px solid red;
+}
+.cls_list
+{
+    margin-left: 5em;
+    margin-top: 10px;
+    border: 2px;
+    height: 300px;
+    width: 1400px;
+}
+.img
+{
+    margin-top: 10px;
+    margin-left: 5 px;
+    width: 290px;
+    height: 290px;
+    padding-left: 120px;
+}
+.dropbtn 
+{
+    margin-top: 16px;
+    margin-left: 30px;
+    position: absolute;
+    border-radius: 17px;
+    background-color: black;
+    color: white;
+    height: 6%;
+    width: 4%;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn img
+{
+    width: 20px;
+}
+  
+.dropbtn:hover, .dropbtn:focus 
+{
+    background-color: #e8505b;
+}
+  
+#myInput {
+    box-sizing: border-box;
+    background-image: url('images/search.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+  
+.dropdown-content 
+{
+    margin-left: 42%;
+    position: absolute;
+    display: none;
+    background-color: #f6f6f6;
+    min-width: 100px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+/*.row1
+{
+    border: 2px solid red;
+    margin-left: 43em;
+    width: 80px;
+    
+}*/
+.text
+{
+    margin-top: -9em;
+    float: right;
+    margin-right: 26em;
+}
+.text1
+{
+    margin-top: -9em;
+    float: right;
+    margin-right: 20em;
+}
+.text2
+{
+    margin-top: -9em;
+    float: right;
+    margin-right: 19em;   
+}
+.text3
+{
+    margin-top: -9em;
+    float: right;
+    margin-right: 15em;   
+}
+.text4
+{
+    margin-top: -9em;
+    float: right;
+    margin-right: 12em;   
+}
+.vid
+{
+    border: 2px solid red;
+    width: 400px;
+    padding-top: 14px;
+}  
+.vid1
+{
+    border: 2px solid red;
+    width: 400px;
+    height: auto;
+}
+
+
+.grid-container 
+{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+}
+
+.grid-item 
+{
+    background-color: transparent;
+    height: 350px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container2
+{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+}
+
+.grid-item2
+{
+    background-color: transparent;
+    height: 350px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item p, .grid-item2 p
+{
+    font-size: 15px;
+}
+
+.sub-head
+{
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+iframe
+{
+    border: 5px solid #e8505b;
+    border-radius: 25px;
+}

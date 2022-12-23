@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/fav4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/signup.css">
+
+    <script src="https://kit.fontawesome.com/f6ec98831b.js" crossorigin="anonymous"></script>
+    <script src="js/signup.js"></script>
+    <title>Sign Up | Yoga Mudra</title>
+</head>
+<body>
+
+    <div class="container">
+        <center>
+        <h1>Create an Account</h1>
+        <p>Already have an account? <a class="sign-in" href="login.html">Sign in</a></p>
+
+        <form name="form" class="form" action="php/signup.php" method="post">
+            <div class="details">
+                
+                <input class="input-field" id="mail" type="text" placeholder="Email" name="mail"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        oninvalid="this.setCustomValidity('Sorry , we dont recognize this email.')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        oninput="setCustomValidity(' ')"><br>
+                <input class="input-field" id="name" type="text" placeholder="Name" name="name"
+                        pattern="[a-z]{5,}$"
+                        oninvalid="this.setCustomValidity('Minimum 5 characters')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        oninput="setCustomValidity(' ')"> <br>
+
+                <input type="text" class="input-field" id="age" placeholder="Age" name="age"
+                        pattern="[0-9]{0,2}$"
+                        oninvalid="this.setCustomValidity('Enter correct age')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        oninput="setCustomValidity(' ')"> <br>
+        
+                
+                    <input type="password" class="input-field" placeholder="Password" name="pass">
+                    
+                <div class="gender-tab">
+                    <p>Gender</p> <br>
+                    <input type="radio" id="gender" name="gender" class="radio-btn" value="male">
+                    <label class="radio-label">Male</label>
+                    <input type="radio" id="gender" name="gender" class="radio-btn" value="female">
+                    <label class="radio-label">Female</label>
+                </div> <br>
+
+                <div class="current-tab">
+                    <p>What is your current body shape?</p> <br>
+                    <input type="radio" id="shape" class="shape-btn" name="shape" value="regular">
+                    <label class="radio-label">Regular</label>
+                    <input type="radio" class="shape-btn" name="shape" value="tubby">
+                    <label class="radio-label">Tubby</label>
+                    <input type="radio" class="shape-btn" name="shape" value="flabby">
+                    <label class="radio-label">Flabby</label>
+                </div> <br>
+
+                <div class="familiar-tab">
+                    <p>How familiar are you with yoga?</p> <br>
+                    <input type="radio" id="familiar" class="familiar-btn" name="fami" value="only heard about it">
+                    <label class="radio-label">Only heard about</label> <br>
+                    <input type="radio" class="familiar-btn" name="fami" value="practised several times">
+                    <label class="radio-label">Practiced several times</label> <br>
+                    <input type="radio" class="familiar-btn" name="fami" value="i am experienced">
+                    <label class="radio-label">I'm experienced</label> <br>
+                </div> <br>
+
+                <input type="text" id="height" class="input-field" placeholder="Height in cm" name="height"
+                        pattern="[0-9]{0,3}$"
+                        oninvalid="this.setCustomValidity('Enter correct Height')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        oninput="setCustomValidity(' ')"> <br>
+                <input type="text" id="weight" class="input-field" placeholder="Weight in kg" name="weight"
+                        pattern="[0-9]{0,3}$"
+                        oninvalid="this.setCustomValidity('Enter correct Weight')"
+                        onchange="try{setCustomValidity('')}catch(e){}"
+                        oninput="setCustomValidity(' ')"> <br>
+                
+            <p id="error" ></p> <br>
+            <input class="submit-btn" type="submit" value="Sign Up >">
+        </form>
+        </center>
+    </div>
+
+</body>
+</html>

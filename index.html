@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="aos.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap'); </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Yoga Mudra</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+
+    <!-- Navigation Tabs -->
+    <div class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Yoga Mudra</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link smoothScroll">
+                            <button class="nav-btn" >Home</button>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">
+                            <button class="nav-btn" >About</button>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link smoothScroll">
+                            <button class="nav-btn" >Gallery</button>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="classes.html" class="nav-link smoothScroll">
+                            <button class="nav-btn" >Classes</button>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#schedule" class="nav-link smoothScroll">
+                            <button class="nav-btn" >Schedules</button>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#event" class="nav-link smoothScroll">
+                            <button class="nav-btn" >Events</button></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link smoothScroll">
+                            <button class="nav-btn" >Shop.</button></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link smoothScroll">
+                            <button class="nav-btn" >Sign in</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Playback and Text -->
+
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+        <div class="bg-overlay">
+            <video autoplay muted loop id="myVideo">
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto col-12">
+                    <div class="hero-text mt-5 text-center">
+
+                        <h1 data-aos="fade-up" data-aos-delay="500" class="text-black">
+                            Be Fit. <br> Be Relaxed.
+                        </h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Yoga Types -->
+
+    <section class="ftco-section bg-light" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="offer-deal text-center">
+                        <div class="img" style="background-image: url(images/gallery1.jpg)"></div>
+                        <div class="text mt-4">
+                            <h3 class="mb-4">Power Yoga</h3>
+                            <p class="mb-5">
+                                Which is also known as Vinyasa yoga, is a fast-paced style of yoga that's focused on building strength and endurance. It is also an excellent form of yoga for burning calories
+                            </p>
+                            <p>
+                                <a href="https://www.verywellfit.com/what-is-power-yoga-3566853" target="_blank" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="100"
+                                    data-toggle="modal" data-target="#membershipForm">
+                                    Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="offer-deal text-center">
+                        <div class="img" style="background-image: url(images/gallery2.jpg)"></div>
+                        <div class="text mt-4">
+                            <h3 class="mb-4">Meditation Class</h3>
+                            <p class="mb-5">
+                                Meditation can give you a sense of calm, peace and balance that can benefit both your emotional well-being and your overall health
+                                <br> <br>
+
+                            </p>
+                            <p>
+                                <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="100"
+                                    data-toggle="modal" data-target="#membershipForm">
+                                    Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+                    <div class="offer-deal text-center">
+                        <div class="img" style="background-image: url(images/gallery-3.jpg)"></div>
+                        <div class="text mt-4">
+                            <h3 class="mb-4">Aerobics Class</h3>
+                            <p class="mb-5">
+                                Set to music and led by a qualified instructor who takes you through a variety of structured movements that raise your heart rate and get blood and oxygen flowing more quickly.
+                            </p>
+                            <p>
+                                <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="100"
+                                    data-toggle="modal" data-target="#membershipForm">
+                                    Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="600">
+                    <div class="offer-deal text-center">
+                        <div class="img" style="background-image: url(images/gallery4.jpg)"></div>
+                        <div class="text mt-4">
+                            <h3 class="mb-4">Spiritual Yoga</h3>
+                            <p class="mb-5">
+                                To discover a higher reality that transcends the senses, the mind, and the heart. You may think of that reality in terms of cosmic concepts like higher power, the divine mother.
+                            </p>
+                            <p>
+                                <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="100"
+                                    data-toggle="modal" data-target="#membershipForm">
+                                    Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- -->
+
+    <section class="home-about spad" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="home_about_pic">
+                        <div class="home_about_pic_item large-item set-bg" data-setbg="about-1.jpg" data-aos="fade-up"
+                            data-aos-delay="300"></div>
+                        <div class="home_about_pic_item">
+                            <div class="home_about_pic_item_inner set-bg" data-setbg="about-2.jpg" data-aos="fade-up"
+                                data-aos-delay="400"></div>
+                            <div class="home_about_pic_item_inner set-bg" data-setbg="about-3.jpg" data-aos="fade-up"
+                                data-aos-delay="500"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="home_about_text" data-aos="fade-up" data-aos-delay="300">
+                        <div class="section-title">
+                            <h2>Welcome to <br>Yoga Mudra</h2>
+                        </div>
+                        <span>"What hurts today makes you stronger tomorrow."</span>
+                        <p>Yoga is a meditative process of self-discovery and liberation. It is a diverse collection of practices that aims to control the mind, recognize a detached witness consciousness, and free oneself from the cycle of birth and death. It teaches us to see ourselves clearly, to understand what is true about who we are, and to let go of anything that does not serve us. It helps us to become aware of our thoughts, feelings, and beliefs, and to change them when they no longer serve us. It gives us the tools to make better choices in life, and to live more fully.</p>
+                        <p class="para-2">
+                            <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up"
+                                data-aos-delay="400">More About Us &rarrhk;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Gallery -->
+
+<section class="ftco-section ftco-no-pt ftco-no-pb" id="gallery">
+    <div class="container">
+        <div class="row no-gutters justify-content-center mb-5 pb-2">
+            <div class="col-md-6 text-center heading-section">
+                <h2 class="mb-4">Our Gallery</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="images/pose1.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="images/pose1.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="work-2.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="work-2.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="work-3.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="work-3.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="work-4.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="work-4.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="work-5.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="work-5.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="work-6.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="work-6.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="work-7.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="work-7.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project">
+                    <img src="work-8.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <span>Asana</span>
+                    </div>
+                    <a href="work-8.jpg" class="d-flex justify-content-center align-items-center"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Training CLasses -->
+
+<section class="class section style-cards" id="class">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center mb-5">
+                <h1 data-aos="fade-up" data-aos-delay="200">Our Training Classes</h1>
+            </div>
+
+            <div class="card-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="desc-3">
+                    <h3 class="mb-2">Yoga Training</h3>
+                    <p>
+                        The word “Yoga” essentially means, “that which brings you to reality”. Literally, it means
+                        “union.” Union means it
+                        brings you to the ultimate reality, where individual manifestations of life are surface
+                        bubbles in the process of
+                        creation.
+                    </p>
+                </div>
+                <video data-aos="fade-up" data-aos-delay="500" autoplay playsinline muted loop>
+                    <source src="images/video1.mp4">
+                </video>
+            </div>
+            <div class="card-2" data-aos="fade-up" data-aos-delay="200">
+                <video data-aos="fade-up" data-aos-delay="500" autoplay playsinline muted loop>
+                    <source src="production ID_4612365.mp4"></video>
+
+                <div class="desc-2">
+                    <h3 class="mb-2">Cardio Training</h3>
+                    <p>
+                        Cardio Yoga is a type of yoga class that combines Yoga moves with cardiovascular exercises.
+                        The workout takes classic
+                        yoga moves and makes them a bit faster, with a more rapid flow between sequences.
+                        The non-stop movement gets your heart beating and your muscles burning.
+                    </p>
+                </div>
+            </div>
+            <div class="card-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="desc-3">
+                    <h3 class="mb-2">Yoga Training</h3>
+                    <p>
+                        "Meditation, which is the practice of focused concentration, bringing yourself back to the
+                        moment over and over again,
+                        actually addresses stress, whether positive or negative." Meditation can also reduce the
+                        areas of anxiety, chronic pain,
+                        depression, heart disease and high blood pressure.
+                    </p>
+                </div>
+                <video data-aos="fade-up" data-aos-delay="500" autoplay playsinline muted loop>
+                    <source src="images/video2.mp4"></video>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Time Tabel -->
+<section class="classtime-section class-time-table spad" id="schedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <h2>Clas Timings</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="timetable-controls">
+                    <ul>
+                        <li class="active" data-tsfilter="all">all class</li>
+                        <li data-tsfilter="Yoga">Yoga</li>
+                        <li data-tsfilter="Aerobics">Aerobics</li>
+                        <li data-tsfilter="Wushu">Wushu</li>
+                        <li data-tsfilter="Karate">Karate</li>
+                        <li data-tsfilter="Medetation">Medetation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="classtime-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="workout-time">10:00</td>
+                        <td class="hover-bg ts-item" data-tsmeta="Yoga">
+                            <span>10:00 - 14:00</span>
+                            <h6>Yoga</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Yoga">
+                            <span>10:00 - 15:00</span>
+                            <h6>Yoga</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Aerobics">
+                            <span>10:00 - 13:00</span>
+                            <h6>Aerobics</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Aerobics">
+                            <span>10:00 - 13:30</span>
+                            <h6>Aerobics</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="workout-time">14:00</td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Aerobics">
+                            <span>14:00 - 17:00</span>
+                            <h6>Aerobics</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Yoga">
+                            <span>14:00 - 17:00</span>
+                            <h6>Yoga</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Karate">
+                            <span>14:00 - 15:30</span>
+                            <h6>Karate</h6>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="workout-time">16:00</td>
+                        <td class="hover-bg ts-item" data-tsmeta="Aerobics">
+                            <span>16:00 - 18:00</span>
+                            <h6>Aerobics</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Medetation">
+                            <span>16:00 - 19:00</span>
+                            <h6>Medetation</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Medetation">
+                            <span>16:00 - 19:00</span>
+                            <h6>Medetation</h6>
+                        </td>
+                        <td class="hover-bg ts-item" data-tsmeta="Wushu">
+                            <span>16:00 - 17:00</span>
+                            <h6>Wushu</h6>
+                        </td>
+                        <td class="hover-bg ts-item" data-tsmeta="Wushu">
+                            <span>16:00 - 20:00</span>
+                            <h6>Wushu</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="workout-time">18:00</td>
+                        <td class="hover-bg ts-item" data-tsmeta="Karate">
+                            <span>18:00 - 20:00</span>
+                            <h6>Karate</h6>
+                        </td>
+                        <td class="hover-bg ts-item" data-tsmeta="Wushu">
+                            <span>18:00 - 20:00</span>
+                            <h6>Wushu</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Yoga">
+                            <span>18.00 - 22.00</span>
+                            <h6>Yoga</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Wushu">
+                            <span>18:00 - 22:00</span>
+                            <h6>Wushu</h6>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="workout-time">20:00</td>
+                        <td class="hover-bg ts-item" data-tsmeta="Aerobics">
+                            <span>21:00 - 23:00</span>
+                            <h6>Aerobics</h6>
+                        </td>
+                        <td class="hover-bg ts-item" data-tsmeta="Karate">
+                            <span>20:00 - 22:00</span>
+                            <h6>Karate</h6>
+                        </td>
+                        <td class="hover-bg ts-item" data-tsmeta="Karate">
+                            <span>20:30 - 23:00</span>
+                            <h6>Karate</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Yoga">
+                            <span>22:00 - 23:00</span>
+                            <h6>Yoga</h6>
+                        </td>
+                        <td></td>
+                        <td class="hover-bg ts-item" data-tsmeta="Yoga">
+                            <span>21:00 - 23:00</span>
+                            <h6>Yoga</h6>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- Events -->
+<section class="event-section spad bg-light">
+    <div class="container" id="event">
+        <div class="section-title text-center">
+            <h2>Upcoming Events</h2>
+            <p>Have a balance of perfect body and calm soul.</p>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="event-video">
+                    <img src="event-1.jpg" alt="" class="event-img">
+                    <a href="#" class="video-popup"><img src="play.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="event-item">
+                    <div class="ei-img">
+                        <img src="event-2.jpg" alt="" class="event-img">
+                    </div>
+                    <div class="ei-text">
+                        <h4><a href="booking.html">Yoga Competetion</a></h4>
+                        <ul>
+                            <li><i class="material-icons">person</i>Mysore Yogalaya</li>
+                            <li><i class="material-icons">event_available</i>10 January, 2023</li>
+                            <li><i class="material-icons">map</i>Aravinda Nagar</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="ei-img">
+                        <img src="event-3.jpg" alt="" class="event-img">
+                    </div>
+                    <div class="ei-text">
+                        <h4><a href="booking.html" >Aerobics Competetion</a></h4>
+                        <ul>
+                            <li><i class="material-icons">person</i>Mysore Hatha Yoga Kendra</li>
+                            <li><i class="material-icons">event_available</i>15 January, 2023</li>
+                            <li><i class="material-icons">map</i>Lakshmipuram</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="ei-img">
+                        <img src="event-4.jpg" alt="" class="event-img">
+                    </div>
+                    <div class="ei-text">
+                        <h4><a href="booking.html">Karate Competetion</a></h4>
+                        <ul>
+                            <li><i class="material-icons">person</i>Swasthya Yoga Studio</li>
+                            <li><i class="material-icons">event_available</i>25 January 2023</li>
+                            <li><i class="material-icons">map</i>TK Layout</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<br><br><br>
+<section>
+    <div class="discord">
+        
+        <img class="qr" src="images/qrcode.png"alt="discord qr">
+        <img class="discord-logo" src="images/discord.svg" alt=""> <br><br>
+        <p style="text-align: center;">Stay Connected in our Discord Server Yoga Mudra</p>
+    </div>
+</section>
+<br><br>
+
+<!-- Footer -->
+
+<section class="footer" >
+    <div class="container" id="contacts">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="footer_about">
+                    <p class="logo-end" >Yoga Mydra</p> <br> <br> <br>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                <div class="footer_widget">
+                    <h5>Inspiration</h5>
+                    <ul>
+                        <li><a href="#">Yoga</a></li>
+                        <li><a href="#">Spiritual</a></li>
+                        <li><a href="#">Karate</a></li>
+                        <li><a href="#">Aerobics</a></li>
+                        <li><a href="#">Medetation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="footer_widget">
+                    <h5>About Us</h5>
+                    <ul>
+                        <li><a href="#">Our Vision</a></li>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Meet the team</a></li>
+                        <li><a href="#">Introduce</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="footer_widget">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-address">
+                        <li><i class="fa fa-phone"></i>63817 64440</li>
+                        <li><i class="fa fa-envelope"></i>yoga_mudra@gmail.com</li>
+                        <li><i class="fa fa-location-arrow"></i>202 1st floor, Kuvempu Nagara, Mysore</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer_copyright">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="footer_copyright_text">
+                        <p>Copyright &copy; 2022 Yoga Mudra | All Rights Reserved | Team Amrita</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="footer_copyright_social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</section>
+
+<!-- section 10 ends -->
+
+
+
+
+<!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js"></script>
+<script src="script.js"></script>
+    
+</body>
+
+</html>

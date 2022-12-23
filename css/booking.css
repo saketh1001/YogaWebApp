@@ -1,0 +1,102 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+    position: relative;
+}
+
+.amrita-logo
+{
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+h1
+{
+    margin-top: 50px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.form
+{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 300px;
+}
+
+label
+{
+    font-size: 15px;
+}
+
+.input
+{
+    height: 40px;
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.submit-btn
+{
+    margin-top: 20px;
+    height: 40px;
+    width: 270px;
+    color: white;
+    background-color: #e8505b;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.submit-btn:hover
+{
+    transition: 0.4s;
+    color: #e8505b;
+    border: 2px solid #e8505b;
+    background-color: transparent;
+    box-shadow: 0px 0px 9px #e8505b;
+}
+
+.map
+{
+    margin-top: 170px;
+    margin-right: 200px;
+    position: absolute;
+    right: 0px;
+}
+
+iframe
+{
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.189);
+}
+
+.upi
+{
+    position: absolute;
+    margin-top: 42.5%;
+    margin-left: 21%;
+    height: 30px;
+}
+
+.qr
+{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 28%;
+    height: 100px;
+}
